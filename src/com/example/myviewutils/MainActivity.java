@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 		
 		Log.d("MainActivity", "tv1="+tvdddd.getText());
 		Log.d("MainActivity", "tv2="+tv2.getText());
+		Log.d("BangDe","fix a bug,no thanks");
 	}
 	
 	@OnClick({R.id.btn1,R.id.btn2})
