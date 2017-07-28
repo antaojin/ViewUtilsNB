@@ -1,23 +1,16 @@
-# ViewUtilsNB
-这是一个ViewUtils框架，可以基于注解 的形式进行控件的绑定和按钮点击事件的绑定。
+package com.example.myviewutils;
 
-##1. 参考代码
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
-	
-	package com.example.myviewutils;
+public class MainActivity extends Activity {
 
-	import android.app.Activity;
-	import android.os.Bundle;
-	import android.util.Log;
-	import android.view.View;
-	import android.widget.TextView;
-	import android.widget.Toast;
-	
-	public class MainActivity extends Activity {
-	
-		
 	private int num;
-		
+	
 	@ViewInject(R.id.tv1)
 	private TextView tvdddd;
 	
@@ -52,4 +45,3 @@
 
 	
 }
-
